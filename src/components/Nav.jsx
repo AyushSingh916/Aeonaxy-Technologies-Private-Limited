@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
-import './Nav.css'; // Add your CSS file for styling
+import logo from '../assets/dribble_black.png';
+import './Nav.css';
 
 const Nav = () => {
   return (

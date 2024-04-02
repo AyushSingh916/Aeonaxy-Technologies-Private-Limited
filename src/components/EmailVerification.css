@@ -6,7 +6,11 @@
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    width: 100vw;
+    width: 95%;
+}
+
+.veri-container button {
+    background-color: #ea4c89;
 }
 
 .email-verification {
@@ -59,8 +63,8 @@ footer {
 .footer-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100vw;
+    justify-content: space-evenly;
+    width: 100%; /* Change from 100vw to 100% */
 }
 
 .dribbble-info {
@@ -106,3 +110,4 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+
