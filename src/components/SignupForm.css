@@ -1,9 +1,8 @@
 /* SignUpForm.css */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly; /* Center horizontally */
   align-items: center;
   height: 100vh;
   background-color: #ffffff;
@@ -11,8 +10,12 @@
 }
 
 .left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 2rem;
-  text-align: center;
+  position: absolute;
+  left: 0;
 }
 
 .right-section {
@@ -21,6 +24,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: 400px; /* Limit maximum width */
 }
 
 .slogan {
@@ -34,9 +38,7 @@
   border-radius: 8px;
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 400px;
   width: 100%;
-  position: relative;
 }
 
 .title {
@@ -139,4 +141,40 @@
   flex-direction: row;
   top: 8px;
   right: 6px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .left-section {
+    display: none;
+  }
+
+  .right-section {
+    width: 90%;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sign-up-container {
+    padding: 1.5rem;
+  }
+
+  .input-field {
+    font-size: 0.8rem;
+    padding: 0.6rem;
+  }
+
+  .button {
+    font-size: 0.8rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .member {
+    font-size: 0.7rem;
+  }
+
+  .username-error {
+    font-size: 0.7rem;
+  }
 }
