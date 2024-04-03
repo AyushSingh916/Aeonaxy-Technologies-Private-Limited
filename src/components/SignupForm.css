@@ -27,7 +27,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1; /* Grow to fill remaining space */
+  flex: 1;
 }
 
 .sign-up-container {
@@ -35,9 +35,20 @@
   border-radius: 8px;
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 400px; /* Set maximum width for sign-up-container */
-  width: 100%; /* Ensure it takes full width of the right section */
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 2rem; /* Add margin bottom to create space between the container and sign-in link */
 }
+
+.member {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  top: 8px;
+  right: 6px;
+  margin-bottom: 2rem; /* Add margin bottom to create space between the container and sign-in link */
+}
+
 
 .title {
   font-size: 1.5rem;
@@ -131,20 +142,6 @@
   justify-content: space-between; /* Adjusted to space-between */
   align-items: center;
   margin: 10px 0; /* Adjusted margin */
-}
-
-.member {
-  display: flex;
-  position: absolute;
-  flex-direction: row;
-  top: 8px;
-  right: 6px;
-  margin-bottom: 1rem;
-}
-
-.member p {
-  margin-left: 10px;
-  margin-bottom: 10px;
 }
 
 /* Media Queries */
