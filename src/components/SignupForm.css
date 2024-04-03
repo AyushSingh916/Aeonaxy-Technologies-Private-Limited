@@ -142,6 +142,11 @@
   margin-bottom: 1rem;
 }
 
+.member p {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .left-section {
