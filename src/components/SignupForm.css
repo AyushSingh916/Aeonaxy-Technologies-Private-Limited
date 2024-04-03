@@ -42,11 +42,11 @@
 
 .member {
   display: flex;
-  position: absolute;
   flex-direction: row;
+  justify-content: flex-end;
   top: 8px;
   right: 6px;
-  margin-bottom: 2rem; /* Add margin bottom to create space between the container and sign-in link */
+  margin-bottom: 2rem;
 }
 
 
