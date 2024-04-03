@@ -29,8 +29,8 @@
 }
 
 .profile-creation img {
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     border: 10px dotted #ccc;
     margin-bottom: 10px;

@@ -41,10 +41,14 @@ const LandingPage = () => {
     navigate('/create-profile');
   }; 
 
+  function handleBack() {
+    navigate('/');
+  }
+
   return (
     <div className="landing-page">
       <div className='lp-header'>
-      <img src={dribble}/>
+      <img src={dribble} onClick={handleBack}/>
       <button onClick={handleClick}><img src={backbtn}/></button>
       </div>
       <h1>What brings you to Dribbble?</h1>
