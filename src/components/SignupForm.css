@@ -2,20 +2,19 @@
 
 .container {
   display: flex;
-  justify-content: space-evenly; /* Center horizontally */
+  justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
   background-color: #ffffff;
   font-family: 'Inter', sans-serif;
 }
 
 .left-section {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* Aligns content to the start (left) */
   align-items: center;
   margin-right: 2rem;
-  position: absolute;
-  left: 0;
 }
 
 .right-section {
@@ -23,14 +22,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  max-width: 400px; /* Limit maximum width */
-}
-
-.slogan {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-top: 1rem;
+  flex: 1; /* Grow to fill remaining space */
 }
 
 .sign-up-container {
@@ -38,7 +30,8 @@
   border-radius: 8px;
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  max-width: 400px; /* Set maximum width for sign-up-container */
+  width: 100%; /* Ensure it takes full width of the right section */
 }
 
 .title {

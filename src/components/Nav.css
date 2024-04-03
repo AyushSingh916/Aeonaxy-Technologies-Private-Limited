@@ -88,3 +88,26 @@
   height: 2rem;
   width: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide nav-links by default */
+  }
+  
+  .nav-links li {
+    margin-right: 10px; /* Reduce margin for smaller screens */
+  }
+  
+  .nav-links a {
+    font-size: 12px; /* Decrease font size for smaller screens */
+  }
+  
+  .buttons-container {
+    margin-right: 10px; /* Add margin for smaller screens */
+  }
+  
+  .search-input {
+    width: 100%; /* Take full width for smaller screens */
+    margin-right: 0; /* Remove margin for smaller screens */
+  }
+}
