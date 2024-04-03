@@ -157,6 +157,10 @@
     width: 90%;
     max-width: 400px;
   }
+
+  .username-error {
+    margin-left: 4rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -180,5 +184,9 @@
 
   .username-error {
     font-size: 0.7rem;
+  }
+
+  .username-error {
+    margin-left: 4rem;
   }
 }

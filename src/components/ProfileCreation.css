@@ -83,3 +83,19 @@
 .pc-logo {
     height: 4rem;
 }
+
+@media screen and (max-width: 576px) {
+    .profile-creation img {
+      width: 8rem; /* Adjust width for smaller screens */
+      height: 8rem; /* Adjust height for smaller screens */
+    }
+  
+    .image-input {
+      flex-direction: column; /* Change direction for smaller screens */
+    }
+  
+    .image-input-right {
+      margin-left: 0; /* Remove margin for smaller screens */
+      margin-top: 10px; /* Add margin top for smaller screens */
+    }
+  }
