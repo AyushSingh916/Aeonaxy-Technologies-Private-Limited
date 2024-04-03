@@ -17,6 +17,11 @@
   margin-right: 2rem;
 }
 
+.left-section img {
+  overflow: hidden;
+  height: 100vh;
+}
+
 .right-section {
   display: flex;
   flex-direction: column;

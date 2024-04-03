@@ -13,7 +13,7 @@ const SignUpForm = () => {
   return (
     <div className="container">
       <div className="left-section">
-        <img src={sideImage} alt="Sign up illustration" />
+        <img src={sideImage} alt="Sign up illustration"/>
       </div>
       <div className="right-section">
         <p className="member">
